@@ -15,11 +15,7 @@ private const val TAG = "MainActivity"
 private const val INITIAL_TIP_PERCENT = 15
 
 class MainActivity : AppCompatActivity() {
-    private lateinit var etBillAmount: EditText
-    private lateinit var seekBarTip: SeekBar
-    private lateinit var tvPercent: TextView
-    private lateinit var tvTipAmount: TextView
-    private lateinit var tvTotalAmount: TextView
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -53,23 +49,5 @@ class MainActivity : AppCompatActivity() {
                 computeTipandTotal()
             }
         })
-    }
-
-
-    private fun computeTipandTotal() {
-        if (etBillAmount.text.isEmpty()){
-            tvTotalAmount.text = ""
-            tvTipAmount.text = ""
-            return
-        }
-        // 1. Get the values of tip and total
-        val BaseAmount = etBillAmount.text.toString().toDouble()
-        val tipPercent = seekBarTip.progress
-        // 2. Calculate tip and total
-        val tipAmount = BaseAmount * tipPercent / 100
-        val totalAmount = BaseAmount + tipAmount
-        // 3. Update the UI
-        tvTipAmount.text = "%.2f".format(tipAmount)
-        tvTotalAmount.text = "%.2f".format(totalAmount)
     }
 }
