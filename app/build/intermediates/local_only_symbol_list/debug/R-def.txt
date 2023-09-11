@@ -1,0 +1,36 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color ic_launcher_background
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id appbarLayout
+id changedefaultCurrencyButton
+id chineseYuanRadioButton
+id constraintlayoutMain
+id dialog_cancel
+id dialog_ok
+id etBillAmount
+id euroRadioButton
+id inrRadioButton
+id japaneseYenRadioButton
+id poundRadioButton
+id seekBarTip
+id toolbar
+id tvBaseLabel
+id tvPercent
+id tvTip
+id tvTipAmount
+id tvTotal
+id tvTotalAmount
+id usdRadioButton
+layout activity_main
+layout alert_currency_dialog
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style AppTheme
+style ThemeAppStarting
+xml backup_rules
+xml data_extraction_rules
