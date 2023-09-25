@@ -23,6 +23,10 @@ import com.example.tippy.databinding.ActivityMainBinding
 import com.example.tippy.utilities.HelperUtilities
 import com.example.tippy.utilities.SharedPrefsUtil
 import com.example.tippy.utilities.SharedPrefsUtil.sharedPrefsInit
+import androidx.camera.core.ImageCapture
+import androidx.camera.core.Preview
+import androidx.camera.lifecycle.ProcessCameraProvider
+
 
 
 //Main activity for the app
@@ -41,13 +45,22 @@ class MainActivity : AppCompatActivity() {
 
     private var curTotalTipPercent: Float? = null
     private var curTotalTipAmount: Double? = null
-
+    private var clickCount = 0 // Variable to keep track of the click count
     @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
+
+        // Now, you can access your layout views using the binding object
+        val cameraButton = binding.imageButton
+        cameraButton.setOnClickListener {
+            // Log a message to Logcat when the camera button is clicked
+            // Increment the click count and log it
+            clickCount++
+            Log.d("MainActivity", "Button clicked $clickCount times")
+        }
 
         //Initialise Shared Preferences
         sharedPrefsInit(this@MainActivity)

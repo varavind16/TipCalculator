@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.tippy.app-mergeDebugResources-51:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.example.tippy.app-mergeDebugResources-54:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/bharathvishalg/.gradle/caches/transforms-3/1ca4c302f19fcedfc5f870889d890835/transformed/core-splashscreen-1.0.1/res/values-night-v8/values-night-v8.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "85",
-                        "endOffsets": "136"
-                    }
-                },
-                {
-                    "source": "/Users/bharathvishalg/.gradle/caches/transforms-3/676a4f33d6bbbcf95f2fe1bac76accc4/transformed/material-1.9.0/res/values-night-v8/values-night-v8.xml",
+                    "source": "/Users/CTWK48/.gradle/caches/transforms-3/676a4f33d6bbbcf95f2fe1bac76accc4/transformed/material-1.9.0/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -31,7 +21,17 @@
                     }
                 },
                 {
-                    "source": "/Users/bharathvishalg/.gradle/caches/transforms-3/26c911d3cf93a7c0e4fcf2c49b0a758c/transformed/appcompat-1.6.1/res/values-night-v8/values-night-v8.xml",
+                    "source": "/Users/CTWK48/.gradle/caches/transforms-3/1ca4c302f19fcedfc5f870889d890835/transformed/core-splashscreen-1.0.1/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "85",
+                        "endOffsets": "136"
+                    }
+                },
+                {
+                    "source": "/Users/CTWK48/.gradle/caches/transforms-3/26c911d3cf93a7c0e4fcf2c49b0a758c/transformed/appcompat-1.6.1/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

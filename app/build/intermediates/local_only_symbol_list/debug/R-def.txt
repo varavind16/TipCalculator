@@ -13,6 +13,7 @@ id dialog_cancel
 id dialog_ok
 id etBillAmount
 id euroRadioButton
+id imageButton
 id inrRadioButton
 id japaneseYenRadioButton
 id poundRadioButton

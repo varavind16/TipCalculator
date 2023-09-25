@@ -1,14 +1,14 @@
 [
     {
-        "merged": "com.example.tippy.app-mergeDebugResources-52:/layout/alert_currency_dialog.xml",
-        "source": "com.example.tippy.app-main-55:/layout/alert_currency_dialog.xml"
+        "merged": "com.example.tippy.app-mergeDebugResources-55:/layout/activity_main.xml",
+        "source": "com.example.tippy.app-main-58:/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/bharathvishalg/.gradle/daemon/8.0/com.example.tippy.app-mergeDebugResources-52:/layout/alert_currency_dialog.xml",
-        "source": "/Users/bharathvishalg/.gradle/daemon/8.0/com.example.tippy.app-main-55:/layout/alert_currency_dialog.xml"
+        "merged": "/Users/CTWK48/.gradle/daemon/8.0/com.example.tippy.app-mergeDebugResources-55:/layout/activity_main.xml",
+        "source": "/Users/CTWK48/.gradle/daemon/8.0/com.example.tippy.app-main-58:/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/bharathvishalg/.gradle/daemon/8.0/com.example.tippy.app-mergeDebugResources-52:/layout/activity_main.xml",
-        "source": "/Users/bharathvishalg/.gradle/daemon/8.0/com.example.tippy.app-main-55:/layout/activity_main.xml"
+        "merged": "/Users/CTWK48/.gradle/daemon/8.0/com.example.tippy.app-mergeDebugResources-55:/layout/alert_currency_dialog.xml",
+        "source": "/Users/CTWK48/.gradle/daemon/8.0/com.example.tippy.app-main-58:/layout/alert_currency_dialog.xml"
     }
 ]

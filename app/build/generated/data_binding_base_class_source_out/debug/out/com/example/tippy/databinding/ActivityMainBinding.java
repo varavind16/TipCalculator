@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.SeekBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -37,6 +38,9 @@ public final class ActivityMainBinding implements ViewBinding {
   public final EditText etBillAmount;
 
   @NonNull
+  public final ImageButton imageButton;
+
+  @NonNull
   public final SeekBar seekBarTip;
 
   @NonNull
@@ -63,14 +67,16 @@ public final class ActivityMainBinding implements ViewBinding {
   private ActivityMainBinding(@NonNull ConstraintLayout rootView,
       @NonNull AppBarLayout appbarLayout, @NonNull MaterialButton changedefaultCurrencyButton,
       @NonNull ConstraintLayout constraintlayoutMain, @NonNull EditText etBillAmount,
-      @NonNull SeekBar seekBarTip, @NonNull MaterialToolbar toolbar, @NonNull TextView tvBaseLabel,
-      @NonNull TextView tvPercent, @NonNull TextView tvTip, @NonNull TextView tvTipAmount,
-      @NonNull TextView tvTotal, @NonNull TextView tvTotalAmount) {
+      @NonNull ImageButton imageButton, @NonNull SeekBar seekBarTip,
+      @NonNull MaterialToolbar toolbar, @NonNull TextView tvBaseLabel, @NonNull TextView tvPercent,
+      @NonNull TextView tvTip, @NonNull TextView tvTipAmount, @NonNull TextView tvTotal,
+      @NonNull TextView tvTotalAmount) {
     this.rootView = rootView;
     this.appbarLayout = appbarLayout;
     this.changedefaultCurrencyButton = changedefaultCurrencyButton;
     this.constraintlayoutMain = constraintlayoutMain;
     this.etBillAmount = etBillAmount;
+    this.imageButton = imageButton;
     this.seekBarTip = seekBarTip;
     this.toolbar = toolbar;
     this.tvBaseLabel = tvBaseLabel;
@@ -128,6 +134,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imageButton;
+      ImageButton imageButton = ViewBindings.findChildViewById(rootView, id);
+      if (imageButton == null) {
+        break missingId;
+      }
+
       id = R.id.seekBarTip;
       SeekBar seekBarTip = ViewBindings.findChildViewById(rootView, id);
       if (seekBarTip == null) {
@@ -177,8 +189,8 @@ public final class ActivityMainBinding implements ViewBinding {
       }
 
       return new ActivityMainBinding((ConstraintLayout) rootView, appbarLayout,
-          changedefaultCurrencyButton, constraintlayoutMain, etBillAmount, seekBarTip, toolbar,
-          tvBaseLabel, tvPercent, tvTip, tvTipAmount, tvTotal, tvTotalAmount);
+          changedefaultCurrencyButton, constraintlayoutMain, etBillAmount, imageButton, seekBarTip,
+          toolbar, tvBaseLabel, tvPercent, tvTip, tvTipAmount, tvTotal, tvTotalAmount);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

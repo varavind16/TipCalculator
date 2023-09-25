@@ -1,11 +1,11 @@
-#Tue Aug 29 13:40:42 IST 2023
-base.0=/Users/bharathvishalg/Documents/GitHub/TipCalculator/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
-base.1=/Users/bharathvishalg/Documents/GitHub/TipCalculator/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-base.2=/Users/bharathvishalg/Documents/GitHub/TipCalculator/app/build/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex
-base.3=/Users/bharathvishalg/Documents/GitHub/TipCalculator/app/build/intermediates/dex/debug/mergeProjectDexDebug/3/classes.dex
-base.4=/Users/bharathvishalg/Documents/GitHub/TipCalculator/app/build/intermediates/dex/debug/mergeProjectDexDebug/8/classes.dex
-base.5=/Users/bharathvishalg/Documents/GitHub/TipCalculator/app/build/intermediates/dex/debug/mergeProjectDexDebug/9/classes.dex
-base.6=/Users/bharathvishalg/Documents/GitHub/TipCalculator/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
+#Sun Sep 24 20:45:40 CDT 2023
+base.0=/Users/CTWK48/AndroidStudioProjects/TipCalculator/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.1=/Users/CTWK48/AndroidStudioProjects/TipCalculator/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.2=/Users/CTWK48/AndroidStudioProjects/TipCalculator/app/build/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex
+base.3=/Users/CTWK48/AndroidStudioProjects/TipCalculator/app/build/intermediates/dex/debug/mergeProjectDexDebug/3/classes.dex
+base.4=/Users/CTWK48/AndroidStudioProjects/TipCalculator/app/build/intermediates/dex/debug/mergeProjectDexDebug/8/classes.dex
+base.5=/Users/CTWK48/AndroidStudioProjects/TipCalculator/app/build/intermediates/dex/debug/mergeProjectDexDebug/9/classes.dex
+base.6=/Users/CTWK48/AndroidStudioProjects/TipCalculator/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=14/classes.dex

@@ -24,7 +24,6 @@ class SplashActivity : AppCompatActivity() {
         }
 
         actvityContext = this@SplashActivity
-
         //Launch the MainActivity
         val intent = Intent(actvityContext, MainActivity::class.java)
         startActivity(intent)
